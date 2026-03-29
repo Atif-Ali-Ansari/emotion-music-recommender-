@@ -31,13 +31,28 @@ The project features both a *command-line interface (CLI)* and an interactive *S
 
 ## Installation
 1. Clone the repository:
-   ```bash
    git clone https://github.com/Atif-Ali-Ansari/emotion-music-recommender.git
 2. Navigate to the project directory:
    cd emotion-music-recommender
 3. install dependencies:
    cd emotion-music-recommender
 4. run the application:
+   For the CLI version:
+   python main.py
+
+   For the streamlit web app:
+   streamlit run  app.py
+
+
+## Example Input/Output
+# Input:
+I feel very happy today!
+# Output:
+Detected Mood: Happy
+Recommended Songs:
+- "Happy" by Pharrell Williams
+- "Good Life" by OneRepublic
+  
 
 ## Learning Outcomes
 - Implemented TF-IDF vectorization for feature extraction from text.
