@@ -22,7 +22,7 @@ The project features both a *command-line interface (CLI)* and an interactive *S
 - Logistic Regression
 
 ## Project Architecture
-emotion-music-recommender/ ├── app.py               
+# emotion-music-recommender/ ├── app.py               
 # Streamlit web app interface ├── main.py               
 # Command-line interface (CLI) ├── model.py              
 # Machine learning model (trained classifier) ├── requirements.txt      
@@ -40,11 +40,11 @@ emotion-music-recommender/ ├── app.py
 4. run the application:
 
 ## Learning Outcomes
--Implemented TF-IDF vectorization for feature extraction from text.
--Applied Logistic Regression to classify emotions.
--Developed a user-friendly Streamlit web app for interaction.
+- Implemented TF-IDF vectorization for feature extraction from text.
+- Applied Logistic Regression to classify emotions.
+- Developed a user-friendly Streamlit web app for interaction.
 
 ## Future Improvements
--Expand the dataset for better classification accuracy.
--Add more moods and custom song recommendations.
--Enhance the user interface with additional features and styling.
+- Expand the dataset for better classification accuracy.
+- Add more moods and custom song recommendations.
+- Enhance the user interface with additional features and styling.
