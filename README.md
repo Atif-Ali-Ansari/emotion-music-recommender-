@@ -22,28 +22,39 @@ The project features both a *command-line interface (CLI)* and an interactive *S
 - Logistic Regression
 
 ## Project Architecture
-# emotion-music-recommender/ ├── app.py               
-# Streamlit web app interface ├── main.py               
-# Command-line interface (CLI) ├── model.py              
-# Machine learning model (trained classifier) ├── requirements.txt      
-# List of dependencies ├── README.md             
-# Project documentation
+## emotion-music-recommender/ ├── app.py               
+## Streamlit web app interface ├── main.py               
+## Command-line interface (CLI) ├── model.py              
+## Machine learning model (trained classifier) ├── requirements.txt      
+## List of dependencies ├── README.md             
+## Project documentation
 
-## Installation
-1. Clone the repository:
-   git clone https://github.com/Atif-Ali-Ansari/emotion-music-recommender.git
-2. Navigate to the project directory:
-   cd emotion-music-recommender
-3. install dependencies:
-   cd emotion-music-recommender
-4. run the application:
-   For the CLI version:
-   python main.py
+## Installation and Usage
 
-   For the streamlit web app:
-   streamlit run  app.py
+```bash
+# Clone the repository
+git clone https://github.com/AtifAliAnsari/emotion-music-recommender.git
+cd emotion-music-recommender
 
+# Create virtual environment
+python -m venv venv
 
+# Activate virtual environment
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run CLI version
+python main.py
+
+# Run Streamlit app
+streamlit run app.py
+```
 ## Example Input/Output
 # Input:
 I feel very happy today!
